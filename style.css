@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.div button{
+    margin-top: 20px;
+    border: 1px solid blue;
+    color: black;
+    font-weight: 600;
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.div button:hover{
+    background:aqua;
+}
+
+.div p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.div p a{
+    font-weight: 700;
+}
+
+.div  img{
+    width: 30px;
+    height: 30px;
+}
