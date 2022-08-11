@@ -1,11 +1,10 @@
-let img = document.getElementById("img");
+let par = 0;
 
-let clicks = 0; // change int to var here
-function countClicks() {
-    clicks += 1;
-    document.getElementById("clicks").innerHTML = clicks;
-};
+function btn(){
+    par += 1;
+    document.getElementById("par").innerHTML = par;
+}
 
-img.addEventListener("click", () =>{
-    document.getElementById("clicks").innerHTML = 0;
+img.addEventListener("click", () => {
+    document.getElementById("par").innerHTML = 0;
 })
